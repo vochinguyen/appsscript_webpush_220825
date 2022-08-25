@@ -1,0 +1,27 @@
+{
+  "name": "appsscript_webpush_220825",
+  "version": "1.0.0",
+  "description": "## Web Push Notifications - End to End implementation https://www.youtube.com/watch?v=2zHqTjyfIY8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vochinguyen/appsscript_webpush_220825.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vochinguyen/appsscript_webpush_220825/issues"
+  },
+  "homepage": "https://github.com/vochinguyen/appsscript_webpush_220825#readme",
+  "dependencies": {
+    "web-push": "^3.5.0"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.55"
+  }
+}
