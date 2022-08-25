@@ -7,3 +7,13 @@ const vapidKeys = {
 }; //push.generateVAPIDKeys();
 
 console.log(vapidKeys);
+
+push.setVapidDetails(
+  "mailto:vochinguyen@flomail.net",
+  vapidKeys.publicKey,
+  vapidKeys.privateKey
+);
+
+const sub = {};
+
+push.sendNotification(sub, "test message");

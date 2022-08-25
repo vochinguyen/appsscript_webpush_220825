@@ -11,10 +11,7 @@
     <button onclick="subscribe()">Subscribe</button>
 
     <script>
-        addEventListener('load', async () => {
-            let sw = await navigator.serviceWorker('./sw.js');
-            console.log(sw);
-        });
+        navigator.serviceWorker.register('https://script.google.com/macros/s/AKfycbxRIngVTBSMXLXEEhYKfWtDe4tM4LgfyDmN5oSZpux2/dev/?file=sw.js').then(sw => console.log(sw));
 
         async function subscribe() {
             let sw = await navigator.serviceWorker.ready;
